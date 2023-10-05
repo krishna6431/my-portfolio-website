@@ -16,6 +16,7 @@ const Contact = () => {
       if (!name || !email || !msg) {
         toast.error("PLease Provide all fields");
       }
+      console.log(name, email, msg);
       const res = await axios.post("/api/v1/portfolio/sendEmail", {
         name,
         email,
