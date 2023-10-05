@@ -21,11 +21,7 @@ const Contact = () => {
       }
       console.log(name, email, msg);
 
-      const res = await axios.post(API_URL, {
-        name,
-        email,
-        msg,
-      });
+      const res = await axios.post(API_URL);
       //validation success
       if (res.data.success) {
         toast.success(res.data.message);
