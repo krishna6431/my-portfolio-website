@@ -1,0 +1,1 @@
+vc-domain-verify=api.krishatiitp.vercel.com,f75cdf225ad42292f834
