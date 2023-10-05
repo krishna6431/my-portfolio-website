@@ -4,6 +4,8 @@ import axios from "axios";
 import "./Contact.css";
 import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 import contact from "../../images/contact.webp";
+
+const API_URL = "https://portfolio-api-krishna6431.vercel.app";
 const Contact = () => {
   const [name, setname] = useState("");
   const [email, setEmail] = useState("");
@@ -17,7 +19,7 @@ const Contact = () => {
         toast.error("PLease Provide all fields");
       }
       console.log(name, email, msg);
-      const res = await axios.post("/api/v1/portfolio/sendEmail", {
+      const res = await axios.post(`${API_URL}/api/v1/portfolio/sendEmail`, {
         name,
         email,
         msg,
