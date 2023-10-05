@@ -1,0 +1,70 @@
+.sticky-media-bar {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.social-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.icons {
+  font-size: 40px;
+  padding: 0.5rem;
+  border-radius: 10%;
+}
+
+/* .facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #00aced;
+}
+.linkedin {
+  background-color: #007bb6;
+}
+
+.github {
+  background-color: black;
+}
+
+.reddit {
+  background-color: #ff4301;
+} */
+
+i {
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .sticky-media-bar {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .social-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .icons {
+    font-size: 20px;
+    padding: 0.5rem;
+    border-radius: 10%;
+  }
+}

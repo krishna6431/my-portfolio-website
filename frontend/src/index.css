@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+#light {
+  .sidebar {
+    background: linear-gradient(to bottom, #076585, #fff);
+  }
+  background: linear-gradient(to right, #07668550, #fff);
+  color: black;
+}
+
+/* DARK MODE */
+
+#dark {
+  .sidebar {
+    background: linear-gradient(to bottom, #0204059f, #fff);
+  }
+  .sidebar-section {
+    background: linear-gradient(to left, #070a0a7c, #fff);
+  }
+  background: linear-gradient(to top, #000000d0, #fff);
+  color: white;
+}
+
+/* ======================= */
+@media (max-width: 600px) {
+  * {
+    margin-right: 2%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .footer {
+    margin-left: 0%;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
