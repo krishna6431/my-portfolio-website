@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "proxy" : "https://portfolio-api-krishna6431.vercel.app/",
+  "proxy" : "https://portfolio-api-krishna6431.vercel.app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
