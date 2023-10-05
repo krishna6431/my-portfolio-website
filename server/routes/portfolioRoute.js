@@ -7,7 +7,11 @@ const router = express.Router();
 //routes
 router.post("/sendEmail", sendEmailController);
 router.get("/success", (req, res) => {
-  res.json({ success: true });
+  console.log("get request");
+  res.status(200).send({
+    success: true,
+    message: "Your Message Send Successfully",
+  });
 });
 
 // /export
