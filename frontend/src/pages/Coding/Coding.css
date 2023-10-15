@@ -56,3 +56,8 @@
   height: 100%;
   /* align-items: center; */
 }
+
+.links > a {
+  color: white;
+  text-decoration: none;
+}

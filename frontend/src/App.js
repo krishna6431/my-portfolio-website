@@ -6,16 +6,13 @@ import Projects from "./pages/Projects/Projects";
 import Techstack from "./pages/Techstack/Techstack";
 import WorkExp from "./pages/workExp/WorkExp";
 import ScrollToTop from "react-scroll-to-top";
-// import { useTheme } from "./context/ThemeContext";
 import Tada from "react-reveal/Tada";
 import MobileNav from "./components/MobileNav/MobileNav";
-
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import SocialMedia from "./components/SocialMedia/SocialMedia";
 import Coding from "./pages/Coding/Coding";
 function App() {
-  // const [theme] = useTheme();
   return (
     <>
       <div id="light">

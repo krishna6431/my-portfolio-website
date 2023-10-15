@@ -32,35 +32,29 @@ const Coding = () => {
             <div className="col">
               <div className="title">Profile Link</div>
               <div className="element">
-                <button
-                  className="links"
-                  href="https://leetcode.com/krishna_6431/"
-                >
-                  Open Profile
+                <button className="links">
+                  <a href="https://leetcode.com/krishna_6431/">Open Profile</a>
                 </button>
               </div>
               <div className="element">
-                <button
-                  className="links"
-                  href="https://auth.geeksforgeeks.org/user/krishna_6431/"
-                >
-                  Open Profile
+                <button className="links">
+                  <a href="https://auth.geeksforgeeks.org/user/krishna_6431/">
+                    Open Profile
+                  </a>
                 </button>
               </div>
               <div className="element">
-                <button
-                  className="links"
-                  href="https://www.codechef.com/users/mr_krishna"
-                >
-                  Open Profile
+                <button className="links">
+                  <a href="https://www.codechef.com/users/mr_krishna">
+                    Open Profile
+                  </a>
                 </button>
               </div>
               <div className="element">
-                <button
-                  className="links"
-                  href="https://codeforces.com/profile/mr_krishna"
-                >
-                  Open Profile
+                <button className="links">
+                  <a href="https://codeforces.com/profile/mr_krishna">
+                    Open Profile
+                  </a>
                 </button>
               </div>
             </div>
