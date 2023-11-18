@@ -9,8 +9,6 @@ const Projects = () => {
           PROJECTS
         </h2>
         <hr />
-
-        {/* card design */}
         <div className="row" id="ads">
           <Fade>
             <div className="col-md-4">
@@ -36,10 +34,7 @@ const Projects = () => {
                       Dynamic Knowledge Graph Alignment
                     </h5>
                   </div>
-                  <a
-                    className="ad-btn"
-                    href="https://github.com/techinfo-youtube/ecommerce-app-2023"
-                  >
+                  <a className="ad-btn" href="#active">
                     View
                   </a>
                 </div>
@@ -67,7 +62,7 @@ const Projects = () => {
                   </div>
                   <a
                     className="ad-btn"
-                    href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                    href="https://github.com/krishna6431/CampusVue-College-ERP-System"
                   >
                     View
                   </a>
@@ -92,7 +87,37 @@ const Projects = () => {
                   <div className="ad-title m-auto">
                     <h5 className="text-uppercase">Algorithm Visualizer</h5>
                   </div>
-                  <a className="ad-btn" href="view">
+                  <a
+                    className="ad-btn"
+                    href="https://algorithm-vizualizer.vercel.app/"
+                  >
+                    View
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4" id="secondRow">
+              <div className=" card rounded">
+                <div className="card-image">
+                  <span className="card-notify-badge">NLP</span>
+                  <img
+                    src="https://d1m75rqqgidzqn.cloudfront.net/wp-data/2021/01/18170655/an-introduction-to-natural-language-processing-with-python-for-seos-5f3519eeb8368.png"
+                    alt="project4"
+                  />
+                </div>
+                <div className="card-image-overly m-auto mt-3">
+                  <span className="card-detail-badge">Python</span>
+                  <span className="card-detail-badge">NLP</span>
+                </div>
+                <div className="card-body text-center">
+                  <div className="ad-title m-auto">
+                    <h5 className="text-uppercase">NLP Based Projects</h5>
+                  </div>
+                  <a
+                    className="ad-btn"
+                    href="https://github.com/krishna6431/Natural_Language_Processing_IITP_Assignments"
+                  >
                     View
                   </a>
                 </div>
@@ -120,7 +145,10 @@ const Projects = () => {
                   <div className="ad-title m-auto">
                     <h5 className="text-uppercase">AI Based Projects</h5>
                   </div>
-                  <a className="ad-btn" href="view">
+                  <a
+                    className="ad-btn"
+                    href="https://github.com/krishna6431/AI-Projects"
+                  >
                     View
                   </a>
                 </div>
@@ -144,7 +172,10 @@ const Projects = () => {
                   <div className="ad-title m-auto">
                     <h5 className="text-uppercase">ML Based Projects</h5>
                   </div>
-                  <a className="ad-btn" href="view">
+                  <a
+                    className="ad-btn"
+                    href="https://github.com/krishna6431/ML-Projects"
+                  >
                     View
                   </a>
                 </div>

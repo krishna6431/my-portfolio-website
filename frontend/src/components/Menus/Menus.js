@@ -2,7 +2,7 @@ import React from "react";
 import "./Menus.css";
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
-import dp from "../../images/dp.jpg";
+import pp from "../../images/pp.png";
 import { Link } from "react-scroll";
 import {
   FcAbout,
@@ -20,7 +20,7 @@ const Menus = ({ toggle }) => {
         <>
           <Zoom>
             <div className="navbar-profile-pic">
-              <img src={dp} alt="profile pic" />
+              <img src={pp} alt="profile pic" />
             </div>
           </Zoom>
           <Fade left>

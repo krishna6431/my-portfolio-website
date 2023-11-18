@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import Jump from "react-reveal/Jump";
-import dp from "../../images/dp.jpg";
+import dp from "../../images/pp.png";
 
 const About = () => {
   return (
