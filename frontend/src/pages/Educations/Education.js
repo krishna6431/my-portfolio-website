@@ -27,7 +27,7 @@ const Education = () => {
             <h4 className="vertical-timeline-element-subtitle">
               Indian Institute of Technology Patna (IIT Patna), IN
             </h4>
-            <h5 className="vertical-timeline-element-cpi">CPI : 8.4</h5>
+            <h5 className="vertical-timeline-element-cpi">CPI : 8.8</h5>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
