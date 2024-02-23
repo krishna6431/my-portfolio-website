@@ -21,13 +21,13 @@ const Coding = () => {
             <div className="col">
               <div className="title">Description</div>
               <div className="element">
-                Rated 1960+ in LC Contest (Solved 850+ Problems)
+                Rated 2000+ in LC Contest (Solved 850+ Problems)
               </div>
               <div className="element">
                 Rank #1 at Insitute (Solved 1000+ Problems)
               </div>
-              <div className="element">Rated 1730+ (3* at CC)</div>
-              <div className="element">Rated 1486 (Specialist at CF)</div>
+              <div className="element">Rated 1760+ (3* at CC)</div>
+              <div className="element">Rated 1487 (Specialist at CF)</div>
             </div>
             <div className="col">
               <div className="title">Profile Link</div>
