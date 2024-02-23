@@ -1,8 +1,8 @@
 # Krishna Kant Verma
 
-- **Email**: krishna2211cs19@iitp.ac.in
+- **Email**: vermakrish921@gmail.com
 - **LinkedIn**: [https://linkedin.com/in/krishna6431](https://linkedin.com/in/krishna6431)
-- **Mobile**: +919519798972
+- **Mobile**: +91951979****
 - **GitHub**: [https://github.com/krishna6431](https://github.com/krishna6431)
 - **Location**: Ballia, Uttar Pradesh
 
